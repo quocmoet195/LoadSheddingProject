@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5MtS+FwsCx8=",
+  "dgSpecHash": "TP4+9dRkvwA=",
   "success": true,
   "projectFilePath": "E:\\KI_8\\THUC_TAP_HE\\LoadShedding\\LoadShedding.ServiceDefaults\\LoadShedding.ServiceDefaults.csproj",
   "expectedPackageFiles": [
@@ -51,13 +51,25 @@
     {
       "code": "NU1902",
       "level": "Warning",
+      "message": "Package 'OpenTelemetry.Api' 1.12.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g94r-2vxg-569j",
+      "projectPath": "E:\\KI_8\\THUC_TAP_HE\\LoadShedding\\LoadShedding.ServiceDefaults\\LoadShedding.ServiceDefaults.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\KI_8\\THUC_TAP_HE\\LoadShedding\\LoadShedding.ServiceDefaults\\LoadShedding.ServiceDefaults.csproj",
+      "libraryId": "OpenTelemetry.Api",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
       "message": "Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.12.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4625-4j76-fww9",
       "projectPath": "E:\\KI_8\\THUC_TAP_HE\\LoadShedding\\LoadShedding.ServiceDefaults\\LoadShedding.ServiceDefaults.csproj",
       "warningLevel": 1,
       "filePath": "E:\\KI_8\\THUC_TAP_HE\\LoadShedding\\LoadShedding.ServiceDefaults\\LoadShedding.ServiceDefaults.csproj",
       "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
       "targetGraphs": [
-        "net9.0"
+        "net10.0"
       ]
     }
   ]
