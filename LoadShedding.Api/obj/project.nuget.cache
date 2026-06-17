@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/MrtZyIJWRk=",
+  "dgSpecHash": "6FMVemzbElo=",
   "success": true,
   "projectFilePath": "E:\\KI_8\\THUC_TAP_HE\\LoadShedding\\LoadShedding.Api\\LoadShedding.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,13 @@
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\bin\Debug\net10.0\LoadShedding.ServiceDefaults.deps.json
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\bin\Debug\net10.0\LoadShedding.ServiceDefaults.dll
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\bin\Debug\net10.0\LoadShedding.ServiceDefaults.pdb
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\obj\Debug\net10.0\LoadShedding.ServiceDefaults.csproj.AssemblyReference.cache
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\obj\Debug\net10.0\LoadShedding.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\obj\Debug\net10.0\LoadShedding.ServiceDefaults.AssemblyInfoInputs.cache
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\obj\Debug\net10.0\LoadShedding.ServiceDefaults.AssemblyInfo.cs
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\obj\Debug\net10.0\LoadShedding.ServiceDefaults.csproj.CoreCompileInputs.cache
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\obj\Debug\net10.0\LoadShedding.ServiceDefaults.sourcelink.json
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\obj\Debug\net10.0\LoadShedding.ServiceDefaults.dll
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\obj\Debug\net10.0\refint\LoadShedding.ServiceDefaults.dll
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\obj\Debug\net10.0\LoadShedding.ServiceDefaults.pdb
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.ServiceDefaults\obj\Debug\net10.0\ref\LoadShedding.ServiceDefaults.dll

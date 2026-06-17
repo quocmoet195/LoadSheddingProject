@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6LLyXAGS3aE=",
+  "dgSpecHash": "rcqiIobAGto=",
   "success": true,
   "projectFilePath": "E:\\KI_8\\THUC_TAP_HE\\LoadShedding\\LoadShedding.AppHost\\LoadShedding.AppHost.csproj",
   "expectedPackageFiles": [
@@ -66,7 +66,6 @@
     "C:\\Users\\ADMIN\\.nuget\\packages\\streamjsonrpc\\2.22.11\\streamjsonrpc.2.22.11.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.9\\system.diagnostics.eventlog.9.0.9.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.io.hashing\\9.0.8\\system.io.hashing.9.0.8.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\yamldotnet\\16.3.0\\yamldotnet.16.3.0.nupkg.sha512"
   ],
   "logs": [

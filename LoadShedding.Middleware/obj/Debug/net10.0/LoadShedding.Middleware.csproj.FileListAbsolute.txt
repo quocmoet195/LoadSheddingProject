@@ -1,0 +1,12 @@
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\obj\Debug\net10.0\LoadShedding.Middleware.GeneratedMSBuildEditorConfig.editorconfig
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\obj\Debug\net10.0\LoadShedding.Middleware.AssemblyInfoInputs.cache
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\obj\Debug\net10.0\LoadShedding.Middleware.AssemblyInfo.cs
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\obj\Debug\net10.0\LoadShedding.Middleware.csproj.CoreCompileInputs.cache
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\obj\Debug\net10.0\LoadShedding.Middleware.sourcelink.json
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\bin\Debug\net10.0\LoadShedding.Middleware.deps.json
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\bin\Debug\net10.0\LoadShedding.Middleware.dll
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\bin\Debug\net10.0\LoadShedding.Middleware.pdb
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\obj\Debug\net10.0\LoadShedding.Middleware.dll
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\obj\Debug\net10.0\refint\LoadShedding.Middleware.dll
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\obj\Debug\net10.0\LoadShedding.Middleware.pdb
+E:\KI_8\THUC_TAP_HE\LoadShedding\LoadShedding.Middleware\obj\Debug\net10.0\ref\LoadShedding.Middleware.dll

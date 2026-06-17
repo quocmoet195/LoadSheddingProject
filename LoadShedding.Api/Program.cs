@@ -1,3 +1,4 @@
+using LoadShedding.Middleware;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
