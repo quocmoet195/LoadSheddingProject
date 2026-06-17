@@ -10,8 +10,8 @@ public static class LoadSheddingExtensions
     /// Adds load shedding middleware to the pipeline.
     /// </summary>
     public static IApplicationBuilder UseLoadShedding(
-    this IApplicationBuilder app,
-    LoadSheddingOptions options)
+        this IApplicationBuilder app,
+        LoadSheddingOptions options)
     {
         return app.UseMiddleware<LoadSheddingMiddleware>(options);
     }
