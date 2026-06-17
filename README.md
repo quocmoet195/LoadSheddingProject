@@ -1,47 +1,44 @@
 # Load Shedding Middleware (.NET 10)
 
-## 📌 Overview
+## Обзор
 
-This project demonstrates a custom **load shedding middleware** implemented in ASP.NET Core (.NET 10).
-The system limits the number of concurrent HTTP requests to protect the server from overload.
+Данный проект демонстрирует реализацию пользовательского middleware для **load shedding** в ASP.NET Core (.NET 10).
+Система ограничивает количество одновременно обрабатываемых HTTP-запросов для защиты сервера от перегрузки.
 
-It also includes an Aspire-based orchestration setup for running and monitoring the application.
+Также в проекте используется Aspire для оркестрации и мониторинга приложения.
 
----
 
-## 🧠 Concept
+## Концепция
 
-**Load Shedding** is a technique used in distributed systems to:
+**Load Shedding** — это техника в распределённых системах, которая позволяет:
 
-* Prevent server overload
-* Reject or delay excessive requests
-* Maintain system stability under high load
+* предотвращать перегрузку сервера
+* отклонять или откладывать избыточные запросы
+* поддерживать стабильность системы при высокой нагрузке
 
-This project implements:
+В данном проекте реализованы:
 
-* **Concurrency limiting**
-* **Optional queue with timeout (SemaphoreSlim)**
-* **Fail-fast strategy (HTTP 503)**
+* **ограничение количества одновременных запросов**
+* **очередь с таймаутом (SemaphoreSlim)**
+* **стратегия fail-fast (HTTP 503)**
 
----
 
-## 📦 Project Structure
+## Структура проекта
 
 * **LoadShedding.Api**
-  Main Web API project with endpoints and middleware integration.
+  Основное Web API приложение с endpoint’ами и подключённым middleware.
 
 * **LoadShedding.Middleware**
-  Contains load shedding logic and configuration.
+  Содержит реализацию логики load shedding и конфигурацию.
 
 * **LoadShedding.AppHost**
-  Aspire orchestrator for running and monitoring the system.
+  Оркестратор Aspire для запуска и мониторинга системы.
 
 * **LoadShedding.ServiceDefaults**
-  Default configuration (logging, telemetry).
+  Конфигурация по умолчанию (логирование, телеметрия).
 
----
 
-## ⚙️ Configuration
+## Конфигурация
 
 `appsettings.json`
 
@@ -53,38 +50,36 @@ This project implements:
 }
 ```
 
-* `MaxConcurrentRequests` — maximum number of requests processed simultaneously
+* `MaxConcurrentRequests` — максимальное количество одновременно обрабатываемых запросов
 
----
 
-## 🚀 Running the project
+## Запуск проекта
 
 ```bash
 dotnet build
 dotnet run --project LoadShedding.AppHost
 ```
 
----
 
-## 🌐 Endpoints
+## Эндпоинты
 
-* `/` — health check
-* `/test` — simulated slow request (delay)
+* `/` — проверка работоспособности (health check)
+* `/test` — имитация медленного запроса (задержка)
 
-Example:
+Пример:
 
 ```
 https://localhost:xxxx/test
 ```
 
----
 
-## 🧪 Testing Load Shedding
+## Тестирование load shedding
 
-1. Open multiple browser tabs or send concurrent requests
-2. When the limit is exceeded, the server returns:
+1. Откройте несколько вкладок в браузере или отправьте несколько параллельных запросов
+2. При превышении лимита сервер вернёт:
 
 ```
 503 Service Unavailable
 Too many requests
 ```
+
