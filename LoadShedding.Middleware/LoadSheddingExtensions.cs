@@ -1,4 +1,4 @@
-﻿using LoadShedding.Middleware;
+﻿namespace LoadShedding.Middleware;
 using Microsoft.AspNetCore.Builder;
 
 /// <summary>
