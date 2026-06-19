@@ -13,12 +13,6 @@ if (options == null)
         "LoadShedding configuration is missing");
 }
 
-if (options == null)
-{
-    throw new InvalidOperationException(
-        "LoadShedding configuration is missing");
-}
-
 var app = builder.Build();
 
 app.UseLoadShedding(options);
