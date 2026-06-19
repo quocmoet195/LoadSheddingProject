@@ -21,13 +21,13 @@ if (options == null)
 
 var app = builder.Build();
 
-app.UseLoadShedding(options!);
+app.UseLoadShedding(options);
 
 app.MapGet("/", () => "API is running");
 
 app.MapGet("/test", async (HttpContext context) =>
 {
-    await Task.Delay(8000, context.RequestAborted);
+    await Task.Delay(8000);
     return Results.Ok("OK");
 });
 

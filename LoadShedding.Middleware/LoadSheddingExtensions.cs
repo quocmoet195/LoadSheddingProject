@@ -1,5 +1,5 @@
-﻿namespace LoadShedding.Middleware;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
+namespace LoadShedding.Middleware;
 
 /// <summary>
 /// Extension methods for registering load shedding middleware.
@@ -12,7 +12,5 @@ public static class LoadSheddingExtensions
     public static IApplicationBuilder UseLoadShedding(
         this IApplicationBuilder app,
         LoadSheddingOptions options)
-    {
-        return app.UseMiddleware<LoadSheddingMiddleware>(options);
-    }
+        => app.UseMiddleware<LoadSheddingMiddleware>(options);
 }

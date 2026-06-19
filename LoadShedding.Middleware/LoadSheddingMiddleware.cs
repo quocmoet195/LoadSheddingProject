@@ -1,5 +1,5 @@
-﻿namespace LoadShedding.Middleware;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
+namespace LoadShedding.Middleware;
 
 /// <summary>
 /// Middleware that limits concurrent requests to prevent overload.
@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Http;
 public class LoadSheddingMiddleware  
 {
     private readonly RequestDelegate _next;
-    private static int _current = 0;
+    private int _current = 0;
     private readonly int _max;
 
     public LoadSheddingMiddleware(RequestDelegate next, LoadSheddingOptions options)
@@ -27,7 +27,7 @@ public class LoadSheddingMiddleware
         {
             Interlocked.Decrement(ref _current);
 
-            context.Response.StatusCode = 503;
+            context.Response.StatusCode = 429;
             await context.Response.WriteAsync("Too many requests");
             return;
         }
