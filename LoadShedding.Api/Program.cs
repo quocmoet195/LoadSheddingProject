@@ -21,8 +21,9 @@ app.MapGet("/", () => "API is running");
 
 app.MapGet("/test", async (HttpContext context) =>
 {
-    await Task.Delay(8000);
+    await Task.Delay(8000, context.RequestAborted);
     return Results.Ok("OK");
 });
+
 
 app.Run();
