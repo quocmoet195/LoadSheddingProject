@@ -1,0 +1,44 @@
+﻿using Microsoft.AspNetCore.Http;
+namespace LoadShedding.Middleware;
+
+/// <summary>
+/// Middleware that limits concurrent requests to prevent overload.
+/// </summary>
+public class LoadSheddingMiddleware  
+{
+    private readonly RequestDelegate _next;
+    private int _current = 0;
+    private readonly int _max;
+
+    public LoadSheddingMiddleware(RequestDelegate next, LoadSheddingOptions options)
+    {
+        _next = next;
+        _max = options.MaxConcurrentRequests;
+    }
+
+    /// <summary>
+    /// Handles incoming HTTP requests with concurrency control.
+    /// </summary>
+    public async Task InvokeAsync(HttpContext context)
+    {
+        var current = Interlocked.Increment(ref _current);
+
+        if (current > _max)
+        {
+            Interlocked.Decrement(ref _current);
+
+            context.Response.StatusCode = 429;
+            await context.Response.WriteAsync("Too many requests");
+            return;
+        }
+
+        try
+        {
+            await _next(context);
+        }
+        finally
+        {
+            Interlocked.Decrement(ref _current);
+        }
+    }
+}
